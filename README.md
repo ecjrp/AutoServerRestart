@@ -14,7 +14,8 @@ echo ... %time% - Half way point (3 hrs) reached.
 ```
 Another 10800 is 3 hours
 
-```timeout /t 10800 >null
+```
+timeout /t 10800 >null
 echo ... %time% - Beginning shutdown process.....Killing task.
 ```
 Change accordingly...
